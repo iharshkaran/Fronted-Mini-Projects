@@ -220,7 +220,7 @@ a{
 .album{
     width: 25%;
     display: flex;
-    padding: 0.5rem;
+    padding: 2rem;
 
 }
 .player{
@@ -321,5 +321,8 @@ a{
 }
 .img1:hover{
     opacity: 1;
+}
+.control-icons{
+    padding-left: 7rem;
 }
 
