@@ -96,8 +96,6 @@ html,body{
 #text-content::-webkit-scrollbar-thumb{
     background-color: orangered;
 }
-/* 
-flex width ko srink kar deta hai */
 
 #element{
     flex-shrink: 0;
@@ -273,7 +271,6 @@ color: gray;
     overflow-x: auto; 
 }
 #text-content::-webkit-scrollbar{
-    /* display: none; */
     background-color: transparent;
     height: 8px;
     
