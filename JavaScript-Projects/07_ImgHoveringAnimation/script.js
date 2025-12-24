@@ -33,10 +33,10 @@ elem2.addEventListener("mouseleave",function(){
 elem3.addEventListener("mousemove",function(dets){
     img3.style.left = dets.x + "px";
 });
-elem3.addEventListener("mouseenter",function(dets){
+elem3.addEventListener("mouseenter",function(){
     img3.style.opacity =1;
 });
-elem3.addEventListener("mouseleave",function(dets){
+elem3.addEventListener("mouseleave",function(){
     img3.style.opacity =0;
 });
 
@@ -44,10 +44,10 @@ elem3.addEventListener("mouseleave",function(dets){
 elem4.addEventListener("mousemove",function(dets){
     img4.style.left = dets.x + "px";
 });
-elem4.addEventListener("mouseenter",function(dets){
+elem4.addEventListener("mouseenter",function(){
     img4.style.opacity =1;
 });
-elem4.addEventListener("mouseleave",function(dets){
+elem4.addEventListener("mouseleave",function(){
     img4.style.opacity =0;
 });
 
@@ -55,10 +55,10 @@ elem4.addEventListener("mouseleave",function(dets){
 elem5.addEventListener("mousemove",function(dets){
     img5.style.left = dets.x + "px";
 });
-elem5.addEventListener("mouseenter",function(dets){
+elem5.addEventListener("mouseenter",function(){
     img5.style.opacity =1;
 });
-elem5.addEventListener("mouseleave",function(dets){
+elem5.addEventListener("mouseleave",function(){
     img5.style.opacity =0;
 });
 
